@@ -143,7 +143,7 @@ LOGGING = {
 }
 
 REST_FRAMEWORK["DEFAULT_THROTTLE_RATES"] = {
-    "otp": "5/hour",
+    "otp": "1/sec",
 }
 
 
